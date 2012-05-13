@@ -6,7 +6,7 @@
 <title><?php bloginfo('name'); wp_title();?></title>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url') ?>" />
-<link rel="shortcut icon" href="/wp-content/themes/codium-extend/images/favicon.ico" />
+<link rel="shortcut icon" href="/wp-content/themes/zirbelnuss-piraten/images/favicon.ico" />
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head() ?>
 
@@ -15,7 +15,7 @@
 <body <?php body_class(); ?>> 
 
 <div id="wrapperpub">
-<div id="logo"><a href="/"><img src="/wp-content/themes/codium-extend/images/logo.png" alt="Zurück zur Startseite"></a></div>
+<div id="logo"><a href="/"><img src="/wp-content/themes/zirbelnuss-piraten/images/logo.png" alt="Zurück zur Startseite"></a></div>
 	<div id="header">
 		<div class="dp100">	
 			<h1 id="blog-title" class="blogtitle"><a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo('name') ?>"><?php bloginfo('name') ?></a></h1>
