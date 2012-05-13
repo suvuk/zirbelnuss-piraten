@@ -249,7 +249,7 @@ add_action('wp_footer', 'footer_link');
 function footer_link() {	
 	$anchorthemeowner='<a href="http://www.code-2-reduction.fr/codium_extend/" title="code reduction" target="blank">code reduction</a>';
   	$textfooter = __('Theme <a href="/wordpress-theme">Zirbelnuss-Piraten</a> based on ', 'codium_extend' );
-  	$content = '<div id="footerlink"><div class="alignleft" style="margin-left:10px;"><p>Die Piratenpartei in <a href="http://www.piraten-augsburg.de" class="footerlink">Augsburg</a> | <a href="http://www.piraten-schwaben.de" class="footerlink" target="_blank">Schwaben</a> | <a href="https://www.piratenpartei-bayern.de" class="footerlink" target="_blank">Bayern</a> | <a href="https://www.piratenpartei.de" class="footerlink" target="_blank">Deutschland</a></p></div><div class="alignright"><p>' .$textfooter. $anchorthemeowner.' | <a href="/impressum" class="footerlink">Impressum</a></p></div><div class="clear"></div></div></div>';
+  	$content = '<div id="footerlink"><div class="alignleft" style="margin-left:10px;"><p>Die Piratenpartei in <a href="http://www.piraten-unterfranken.de" class="footerlink">Unterfranken</a> | <a href="https://www.piratenpartei-bayern.de" class="footerlink" target="_blank">Bayern</a> | <a href="https://www.piratenpartei.de" class="footerlink" target="_blank">Deutschland</a></p></div><div class="alignright"><p>' .$textfooter. $anchorthemeowner.' | <a href="/impressum" class="footerlink">Impressum</a></p></div><div class="clear"></div></div></div>';
   	echo $content;
 }
 
